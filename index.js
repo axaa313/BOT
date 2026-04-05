@@ -32,12 +32,12 @@ function panel() {
 
     new ButtonBuilder()
       .setCustomId("arvonta")
-      .setLabel("Arvonta")
+      .setLabel("Arvonta 🎉")
       .setStyle(ButtonStyle.Primary),
 
     new ButtonBuilder()
       .setCustomId("airdrop")
-      .setLabel("Airdrop")
+      .setLabel("Airdrop 💸")
       .setStyle(ButtonStyle.Secondary)
   );
 
