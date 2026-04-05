@@ -20,8 +20,8 @@ function panel() {
     .setColor("#8B5CF6")
     .addFields(
       { name: "Päivitykset 🔔", value: "Serverin päivitykset" },
-      { name: "Arvonta", value: "Osallistu arvontoihin" },
-      { name: "Airdrop", value: "Airdrop-ilmoitukset" }
+      { name: "Arvonta 🎉", value: "Osallistu arvontoihin" },
+      { name: "Airdrop 💸", value: "Airdrop-ilmoitukset" }
     );
 
   const row = new ActionRowBuilder().addComponents(
