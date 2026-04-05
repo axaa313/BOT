@@ -38,7 +38,7 @@ function panel() {
     new ButtonBuilder()
       .setCustomId("airdrop")
       .setLabel("Airdrop")
-      .setStyle(ButtonStyle.Primary)
+      .setStyle(ButtonStyle.Secondary)
   );
 
   return { embeds: [embed], components: [row] };
